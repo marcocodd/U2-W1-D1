@@ -246,6 +246,29 @@ iframe{
    width: 49%;
     display: inline-block;
     margin: 30px auto  auto;
-    height: 170px;
+ 
 }    
+}
+
+@media print {
+header{
+    display: none;
+}
+
+iframe{
+    display: none;
+}
+aside{
+    display:none;
+}
+footer{
+    display: none;
+}
+section{
+    display: none;
+}
+body{
+    font: 2rem;
+
+}
 }
