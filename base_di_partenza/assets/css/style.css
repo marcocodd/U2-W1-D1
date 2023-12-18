@@ -236,14 +236,16 @@ th, td {
 section{
     display: inline-block;
     width: 50%;
-    margin: 30px auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 iframe{
    width: 49%;
     display: inline-block;
-    margin: 0 auto;
+    margin: 30px auto  auto;
     height: 170px;
 }    
 }
